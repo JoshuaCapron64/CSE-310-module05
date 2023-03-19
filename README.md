@@ -2,7 +2,7 @@
 
 I created this program in an attempt to teach myself the Rust language, as well as make a decent tutorial that I can look back on and remember the various basic components of Rust and how they work, should I ever be called upon to use Rust again. This software is just a basic tutorial that uses comments for both the code and the output to explain what is going on and why. Anyone who runs this code and follows along should gain a good understanding of Rust syntax, and Rust's usage of mutable and unmutable variables, expressions, conditionals, loops, and functions.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Z7iRHTv1Vlc)
 
 # Development Environment
 
