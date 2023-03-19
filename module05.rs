@@ -1,5 +1,4 @@
-/*
-INTRODUCTION:
+/* INTRODUCTION:
 
 Hello, and welcome to my tutorial on the Rust programming language. I
 will be demonstrating various aspects of programming as they are
@@ -7,8 +6,8 @@ executed within Rust, including mutable and immutable variables, loops,
 conditionals, expressions, and functions. While Cargo is an important
 aspect of creating and manipulating directories and files that use Rust,
 I have chosen to manually create my files and directories within my
-own folders in Windows File Explorer. 
-*/
+own folders in Windows File Explorer. */
+
 
 /* VARIABLES AND EXPRESSIONS:
 
@@ -32,7 +31,7 @@ fn variables_and_expressions(x: i32, mut y: i32, mut z: f64)
     println!("Now, y =               {y}");
 //other than that, rust utilizes all the same data types other languages
 //use, such as integers, booleans, floting-points, and even strings,
-//tuples and arrays
+//tuples, and arrays
 
     println!("\nFloating-point z =   {z}");
     z = z - 0.14;
@@ -64,7 +63,7 @@ the loop only ends once the condition is met. */
 
 fn conditionals_and_loops(mut value: u32, mut exponent: u32)
 {
-    println!("\nCONDITIONALS AND LOOPS: ")
+    println!("\nCONDITIONALS AND LOOPS: ");
     println!("\nBeginning of loop:");
     loop
     {
@@ -84,7 +83,6 @@ fn conditionals_and_loops(mut value: u32, mut exponent: u32)
         }
         value = value * 2;
     }
-
 //the same loop as before, but done with Rust's exponent function
     println!("\nSyke! We're gonna continue instead!:");
     loop
@@ -103,6 +101,7 @@ fn conditionals_and_loops(mut value: u32, mut exponent: u32)
 //so make sure that the outputs can be handled by the memory of the
 //required variable type (usually i32 or u32 for integers).
 }
+
 
 //the main() function will bring everything together by declaring the
 //necessary variables and passing them into each called function.
